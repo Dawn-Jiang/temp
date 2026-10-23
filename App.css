@@ -1,0 +1,134 @@
+.app-container {
+  min-height: 100vh;
+}
+
+/* 页面容器通用样式 */
+.page-container {
+  padding: 0;
+}
+
+/* 页面标题区域 */
+.page-header {
+  margin-bottom: 20px;
+}
+
+.page-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.page-header .page-subtitle {
+  color: #8c8c8c;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* 卡片统一圆角与阴影 */
+.ant-card {
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+/* 表格容器优化 */
+.ant-table-wrapper {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.ant-table-thead > tr > th {
+  background: #fafafa !important;
+  font-weight: 600;
+}
+
+/* 表单标签 */
+.ant-form-item-label > label {
+  font-weight: 500;
+}
+
+/* 统计卡片 */
+.stat-card {
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.stat-card .ant-statistic-title {
+  font-size: 13px;
+  color: #8c8c8c;
+  margin-bottom: 8px;
+}
+
+.stat-card .ant-statistic-content {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* 按钮组 */
+.button-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* 标签页优化 */
+.ant-tabs-nav {
+  margin-bottom: 16px !important;
+}
+
+/* 空状态优化 */
+.ant-empty {
+  padding: 40px 0;
+}
+
+/* 左侧深蓝导航菜单：选中/hover/展开态高亮（限定在 .ant-menu-dark 内） */
+.ant-menu-dark.ant-menu-inline {
+  background: #0a2540 !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item:hover,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #fff;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected {
+  background: #1a5fb4 !important;
+  color: #fff;
+  font-weight: 500;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected::after {
+  border-right: 3px solid #3d7eff;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 16px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group > * {
+    width: 100%;
+  }
+}
