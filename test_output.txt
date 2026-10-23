@@ -1,0 +1,149 @@
+﻿
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mD:/AI_medical/hospital_frontend[39m
+
+node.exe : [90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m 
+> [22m[2m加载后展示绑定患者信息与就诊人列表[22m[39m
+At line:1 char:1
++ & "D:\DevelopTool\NVM\nvm4w\nodejs/node.exe" "D:\DevelopTool\NVM\nvm4 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([90mstderr[2m...就诊人列表[22m[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Error: Not implemented: window.getComputedStyle(elt, pseudoElt)
+    at module.exports (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+    at window.getComputedStyle (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:897:7)
+    at measureScrollbarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:35:32)
+    at getTargetScrollBarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:83:10)
+    at D:\AI_medical\hospital_frontend\node_modules\rc-table\lib\Table.js:427:71
+    at D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\hooks\useLayoutEffect.js:18:12
+    at Object.react_stack_bottom_frame (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.dev
+elopment.js:25989:20)
+    at runWithFiberInDEV (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.development.js:87
+4:13)
+    at commitHookEffectListMount (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.developme
+nt.js:13249:29)
+    at commitHookPassiveMountEffects (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.devel
+opment.js:13336:11) [90mundefined[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+
+[90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m > [22m[2m
+profile 加载失败时静默处理，列表正常展示[22m[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Error: Not implemented: window.getComputedStyle(elt, pseudoElt)
+    at module.exports (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+    at window.getComputedStyle (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:897:7)
+    at measureScrollbarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:35:32)
+    at getTargetScrollBarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:83:10)
+    at D:\AI_medical\hospital_frontend\node_modules\rc-table\lib\Table.js:427:71
+    at D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\hooks\useLayoutEffect.js:18:12
+    at Object.react_stack_bottom_frame (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.dev
+elopment.js:25989:20)
+    at runWithFiberInDEV (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.development.js:87
+4:13)
+    at commitHookEffectListMount (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.developme
+nt.js:13249:29)
+    at commitHookPassiveMountEffects (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.devel
+opment.js:13336:11) [90mundefined[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+
+[90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m > [22m[2m
+空表单提交绑定弹窗被必填校验拦截[22m[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Error: Not implemented: window.getComputedStyle(elt, pseudoElt)
+    at module.exports (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+    at window.getComputedStyle (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:897:7)
+    at measureScrollbarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:35:32)
+    at getTargetScrollBarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:83:10)
+    at D:\AI_medical\hospital_frontend\node_modules\rc-table\lib\Table.js:427:71
+    at D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\hooks\useLayoutEffect.js:18:12
+    at Object.react_stack_bottom_frame (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.dev
+elopment.js:25989:20)
+    at runWithFiberInDEV (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.development.js:87
+4:13)
+    at commitHookEffectListMount (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.developme
+nt.js:13249:29)
+    at commitHookPassiveMountEffects (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.devel
+opment.js:13336:11) [90mundefined[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+
+[90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m > [22m[2m
+空表单提交绑定弹窗被必填校验拦截[22m[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Error: Not implemented: window.getComputedStyle(elt, pseudoElt)
+    at module.exports (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+    at window.getComputedStyle (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:897:7)
+    at measureScrollbarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:35:32)
+    at getTargetScrollBarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:83:10)
+    at D:\AI_medical\hospital_frontend\node_modules\@rc-component\portal\lib\useScrollLocker.js:27:72
+    at D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\hooks\useLayoutEffect.js:18:12
+    at Object.react_stack_bottom_frame (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.dev
+elopment.js:25989:20)
+    at runWithFiberInDEV (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.development.js:87
+4:13)
+    at commitHookEffectListMount (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.developme
+nt.js:13249:29)
+    at commitHookPassiveMountEffects (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.devel
+opment.js:13336:11) [90mundefined[39m
+
+[90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m > [22m[2m
+更新弹窗预填数据并提交成功[22m[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Error: Not implemented: window.getComputedStyle(elt, pseudoElt)
+    at module.exports (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+    at window.getComputedStyle (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:897:7)
+    at measureScrollbarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:35:32)
+    at getTargetScrollBarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:83:10)
+    at D:\AI_medical\hospital_frontend\node_modules\rc-table\lib\Table.js:427:71
+    at D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\hooks\useLayoutEffect.js:18:12
+    at Object.react_stack_bottom_frame (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.dev
+elopment.js:25989:20)
+    at runWithFiberInDEV (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.development.js:87
+4:13)
+    at commitHookEffectListMount (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.developme
+nt.js:13249:29)
+    at commitHookPassiveMountEffects (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.devel
+opment.js:13336:11) [90mundefined[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+
+[90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m > [22m[2m
+更新弹窗预填数据并提交成功[22m[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Error: Not implemented: window.getComputedStyle(elt, pseudoElt)
+    at module.exports (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+    at window.getComputedStyle (D:\AI_medical\hospital_frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:897:7)
+    at measureScrollbarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:35:32)
+    at getTargetScrollBarSize (D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\getScrollBarSize.js:83:10)
+    at D:\AI_medical\hospital_frontend\node_modules\@rc-component\portal\lib\useScrollLocker.js:27:72
+    at D:\AI_medical\hospital_frontend\node_modules\rc-util\lib\hooks\useLayoutEffect.js:18:12
+    at Object.react_stack_bottom_frame (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.dev
+elopment.js:25989:20)
+    at runWithFiberInDEV (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.development.js:87
+4:13)
+    at commitHookEffectListMount (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.developme
+nt.js:13249:29)
+    at commitHookPassiveMountEffects (D:\AI_medical\hospital_frontend\node_modules\react-dom\cjs\react-dom-client.devel
+opment.js:13336:11) [90mundefined[39m
+
+[90mstderr[2m | src/pages/Patient/__tests__/PatientManage.test.tsx[2m > [22m[2mPatientManage 就诊人管理[2m > [22m[2m
+更新弹窗预填数据并提交成功[22m[39m
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+Warning: [antd: Modal] `destroyOnClose` is deprecated. Please use `destroyOnHidden` instead.
+
+ [32m✓[39m src/pages/Patient/__tests__/PatientManage.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 29555[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m   Start at [22m 21:41:05
+[2m   Duration [22m 43.77s[2m (transform 217ms, setup 425ms, collect 10.68s, tests 29.55s, environment 1.58s, prepare 462ms)[22m
+
